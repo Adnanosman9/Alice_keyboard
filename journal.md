@@ -246,3 +246,45 @@ Aligning vertical center was not quite good so manually placed the border on the
 
 
 ---
+
+## Journal 8 - Whatever!!!!!!!!!
+
+### As the 
+* Schematic was done
+* Switches were routed
+* Pico was connected
+* Border was aligned 
+
+It was time to move to build the physical side. 
+
+But for the further part I need the exact calculation of my PCB for the holes, walls etc calculation. 
+
+I tried to plot dxf of the PCB, tried several times but Fusion was failing to import the DXF. 
+
+I imported the dxf in KiCAD and got that the top line was not in the DXF. 
+
+<img width="429" height="202" alt="Screenshot 2026-11-19 193740" src="https://github.com/user-attachments/assets/eee2ec06-9d65-44b5-b7d9-400b1f73462a" />
+
+
+I tried in man ways. Later I found an issue that the wall thickness maybe stopping from working. 
+
+So, I increased the wall thickness and guess what! 
+
+This time top layer was generated in the dxf but still it was error while importing in Fusion. 
+
+I tried solve this issue in inspace too. But still no solution. 
+
+Later I tried to do this with SVG insted DXF. But working with SVG is quite hard. I found it hard, not sure about others. 
+
+### No solution worked, so I had no other way than working with step as it's the best possible way for Fusion. 
+
+Before exporting the 3d step file, I added 3d model of MX switch on every switch footprint for better visualization in Fusion. **(It was quite time taking)**
+
+At the end the step file generation worked and it was imported in the Fusion properly makign it easy for further design work. 
+
+<img width="1130" height="556" alt="image" src="https://github.com/user-attachments/assets/359025ce-2f07-4bc0-b41c-3042e95efc25" />
+
+
+Whatever!! some issues were here those could not be solved by me, but still here is a way. 
+
+---
