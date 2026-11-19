@@ -62,3 +62,37 @@ Added 2 tables row and col labels and their pin numbers to make it easy during c
 
 > **Finally the schematic sheet is temporarily done to move to the PCB editor**
 
+
+
+## Journal 3 : The biggest mess
+
+After commpleting the schematic and moving to the PCB editor. 
+
+Assigned final footprint to all switches and diodes. 
+
+Used Cherry mx 1u footprint for switches
+
+### Used keyboard plugin to sort and arrange keys in the actual order.
+
+### **But But But!!!!!!!!!!!! Here is an issue**
+
+My switches were annotated with Y coordinates from 1 to 32 on the left and 33 to 65 on the right side. 
+
+But the keyboard plugin doesn't see how switches are sorted in the schematic, this plugin uses the layout json and arranges them in the Y coordinates of the PCB editor. And made my full PCB a mess cause it's an Alice-style keyboard and in alice style all keys are not in same row or column, keys are rotated placed differently. So, using keyboard plugin that uses only json reference is not working to make an Alice-style layout. 
+
+### After searching all on the internet I tried many ways to solve this issue but nothing was working. All were sorting them in a messy y-coordinate. 
+
+Later I found out another plugin called `KLE Placer` but in KiCAD plugin settings it was out of date, so i needed to install it manually. 
+
+Here is the github repo of the plugin, guidelines are here if u want to install
+[KLE placer](https://github.com/zykrah/kicad-kle-placer)
+
+KLE placer works in a different way. It uses number used on the key legend in the layout editor. 
+
+Means during making the layout you need to add number on the keycaps legend. Then the plugin will use the keycap legend number to place the switches in the PCB editor. 
+
+So, I wrote the same numbers on the keycaps legend as annotations of the schematic. 
+
+<img width="1067" height="395" alt="image" src="https://github.com/user-attachments/assets/dd935b88-3e6f-4535-a7c7-4e6ed5f87439" />
+
+Downloaded the json again and this time used KLE placer to sort the switches and fortunately it worked the way I needed. 
