@@ -373,3 +373,45 @@ Adding ears in this will make the keyboard too bulky and hard to use also increa
 I literally underestimated how big every mm distance can be. 
 
 ---
+
+## Journal 12 - Solve the mistake
+
+As previously, found out some issues. It's time to solve them. 
+
+### So, It was better to redesign the case considering these issues. 
+
+
+I started redesigning from making the border the same way I did first time. 
+
+This time I kept the border close to the switch hole to save width for walls instead wasting on PCB. 
+
+<img width="825" height="374" alt="image" src="https://github.com/user-attachments/assets/f979c3f8-5a70-43d2-afc4-d9eba2168b82" />
+
+
+USed this border in KiCAD as edge cut to reshape the PCB in the new size. 
+
+Imported the new shape PCB in the Fusion as step model. 
+
+<img width="1019" height="661" alt="image" src="https://github.com/user-attachments/assets/31bd39e3-acbc-461b-a54f-de1a1a22dbce" />
+
+
+Again used the new border and made the bottom layer and the walls. 
+
+After many changes and calculation I made the wall 5mm thick. 2mm inner edge and 3mm outer edge. 
+
+<img width="950" height="419" alt="image" src="https://github.com/user-attachments/assets/baeeb6ed-1ff2-4ca0-88cf-0a70e755e69b" />
+
+
+Made the switch layer again as well. 
+
+Made the switch layer the same way I did before. 
+
+This time made a cutout for pico too in the switch layer. 
+
+Placed the PCB under the switch layer properly so that I can calculate if the wall height is enough. 
+
+Imported the switch layer in the case tab and aligned it on the case. 
+
+<img width="404" height="264" alt="image" src="https://github.com/user-attachments/assets/61bc5dcc-9fa4-42c7-827b-e37bcb7f55cb" />
+
+### This time it was quite good looking too. 
