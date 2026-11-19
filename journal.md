@@ -32,3 +32,33 @@ Wired them in rows and columns. I used 2 colors in wires for better visibility
 connected all switches in 
 * 16 columns
 * 10 rows
+
+
+## Journal 2 - Wiring the head
+
+Used Pico as the head of the keyboard. 
+
+After connecting all the switches in columns ans rows, added labels on them like `col_1` `row_1` and so on. 
+
+Placed a pico symbol in the schematic. I downloaded the pico symbol and footprint from [SnapEDA](https://www.snapeda.com/home/)
+
+for the footprints I used THT version over SMD cause I will do hand soldering and soldering SMD mcu is way too hard as beginner. 
+
+Connected all columns and rows in pico GP pins. 
+
+<img width="1132" height="899" alt="image" src="https://github.com/user-attachments/assets/5dd49c4e-99d2-4bff-8a61-9c692709a258" />
+
+For better visualisation I added a pico diagram to make it easier to understand if someone wants to reuse this schematic. 
+
+<img width="1129" height="920" alt="image" src="https://github.com/user-attachments/assets/8e5513ae-6175-448f-afde-49441b6e8443" />
+
+
+Extras
+* Added name on top
+* Attached a layout image on the schematic sheet
+
+Added 2 tables row and col labels and their pin numbers to make it easy during coding the firmware. 
+
+
+> **Finally the schematic sheet is temporarily done to move to the PCB editor**
+
