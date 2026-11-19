@@ -288,3 +288,39 @@ At the end the step file generation worked and it was imported in the Fusion pro
 Whatever!! some issues were here those could not be solved by me, but still here is a way. 
 
 ---
+
+## -------------Chapter 2 : CAD is a mess-------------------
+
+---
+
+### Journal 9 - Started CAD
+
+As the PCB was done, it was time to begin the next chapter
+
+Started from the case
+
+Used a prebuilt keyboard (I got from github)as reference for calculation. 
+
+Used the previous dxf border as sketch and using offset tool I made the wall. 
+
+<img width="945" height="532" alt="Screenshot 2026-11-19 203922" src="https://github.com/user-attachments/assets/81ec2b69-a35e-4ccb-8873-a066fbdce36a" />
+
+
+I decided to make it sandwich mount so I needed to make wall with a inner edge. Made the case in 3 step
+* Bottom part
+* Inner edge wall to place the switch layer to hang the pcb. 
+* Outer edge wall to fit the top layer
+
+### Then I needed the switch layer. 
+
+Started the switch layer from using switch hole layout DXF I got from [swillkb](http://builder.swillkb.com/)
+
+Used the previous border around it to make the top layer sketch. Extruded the top layyer 1.5mm and keeping the holes in the extruded layer. 
+
+Added the PCB step model in the top layer model and hanged it under the top layer the way it will hang in real. Grouped them in one model making it a complete **Top Layer**
+
+Added this top layer on the case making the Case work slightly done. 
+
+<img width="796" height="475" alt="Screenshot 2026-11-19 204433" src="https://github.com/user-attachments/assets/1ee19bf7-ca9a-443c-bd5d-fb00ebc9b6ba" />
+
+---
