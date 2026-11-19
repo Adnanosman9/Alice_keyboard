@@ -324,3 +324,30 @@ Added this top layer on the case making the Case work slightly done.
 <img width="796" height="475" alt="Screenshot 2026-11-19 204433" src="https://github.com/user-attachments/assets/1ee19bf7-ca9a-443c-bd5d-fb00ebc9b6ba" />
 
 ---
+
+## Journal 10 - The top
+
+I needed to make the top layer to hold the switch layer with the case. 
+
+I started it's sketch from top layer sketch I got from [swillkb](http://builder.swillkb.com/)
+
+Used the same previous border as it's border. 
+
+Extruded it 6mm. 
+
+<img width="1521" height="875" alt="image" src="https://github.com/user-attachments/assets/289f7fa7-12f7-4e91-9159-47f1561ed6e8" />
+
+Imported it in the case model tab. Aligning it on the top of the case and switch layer. 
+
+Now the parts modeling is done but some serious parts are left. 
+* Screw holes to connect the Top layer with the case. 
+* Side cut out to open space to connect cable to the pico
+
+
+To check if everything is going is well or not I started adding keycaps on the switches. 
+
+Added 1u cap on the normal switches and longer keycaps o the switches where needed. 
+
+<img width="926" height="403" alt="image" src="https://github.com/user-attachments/assets/9b90900b-6907-4b93-bd1a-2063dfedd6f1" />
+
+
