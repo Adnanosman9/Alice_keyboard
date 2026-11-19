@@ -1,15 +1,16 @@
 # Alvonomic
 Alice style keyboard | keys count - 65
 
-## Project journal
+# Project journal
 
-### Journal 1 - The schematic and the layout
+## Journal 1 - The schematic and the layout
 
 I decided to make a 65 keys keyboard in alice style as it looks a bit attractive and hard to build. 
 
-I started with layout design in keyboard layout editor. Then I used KiCAD for achematic and pcb designing. 
+I started with layout design in [keyboard layout editor](https://www.keyboard-layout-editor.com/#/). Then I used KiCAD for achematic and pcb designing. 
 
-[layout image here]
+<img width="611" height="221" alt="image" src="https://github.com/user-attachments/assets/280420a9-3786-45bc-bfa9-a5b1f31190eb" />
+
 
 parts I used in the schematic 
 * Rapberry pi pico : I decided to use pico as it's small and has enough pins to connect rows and columns
@@ -24,7 +25,9 @@ Wired them in rows and columns. I used 2 colors in wires for better visibility
 * Red : for rows 
 * Green : for columns
 
-[Wiring image here]
+<img width="1053" height="833" alt="image" src="https://github.com/user-attachments/assets/97a48ab6-bc28-40da-9cc1-4e5c11b1c6b9" />
+<img width="715" height="571" alt="image" src="https://github.com/user-attachments/assets/631752fb-3def-41a1-ae36-d639dee09682" />
+
 
 connected all switches in 
 * 16 columns
