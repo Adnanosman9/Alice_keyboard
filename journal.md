@@ -350,4 +350,26 @@ Added 1u cap on the normal switches and longer keycaps o the switches where need
 
 <img width="926" height="403" alt="image" src="https://github.com/user-attachments/assets/9b90900b-6907-4b93-bd1a-2063dfedd6f1" />
 
+---
 
+## Journal 11 - The Pretty one
+
+I wanted to make it look good before going further. 
+
+So I added some colors on the objects. It was looking quite good. 
+
+<img width="935" height="349" alt="image" src="https://github.com/user-attachments/assets/9d2fed2a-fa67-411e-af61-e1fbd3684fb4" />
+
+### But I found some issues in the walls.
+
+To attach the top layer with the case I needed to insert screw threads and holes. But the walls were not thick enough to hold a heat inseart in it. 
+
+To insert a heat insert in the walls I needed atleast a 3.6mm thick wall only for holes and the heat may melt some pats so it needs a thicker wall. 
+
+I decided to add ears in 4 corners for screw holes. But the keyboard was already too bulky and the distance to closest key was nearly 23mm. 
+
+Adding ears in this will make the keyboard too bulky and hard to use also increasing printing amount.
+
+I literally underestimated how big every mm distance can be. 
+
+---
