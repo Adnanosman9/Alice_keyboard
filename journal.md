@@ -144,3 +144,34 @@ And this time it was imported fine and working as an edge cut..
 ### FInally rearranging and making a border ends here. 
 
 ---
+
+## journal 5 - Wire the hell
+
+I started the switches all pre arrangement was done.
+
+During wiring I found and issue and it was diodes. Basics diodes are simply too bulky to attach under a switch will hot swap socket. 
+
+So I needed to change the diode footprint. 
+
+I tried several footprints such as smd and tht versions. after some searches I used SMD-D-SOD-123 footprint as it's good for handsoldering
+<img width="974" height="309" alt="image" src="https://github.com/user-attachments/assets/38d41523-5b96-4c62-9c11-355795b3c664" />
+
+
+Diodes arrangement was done but another issue was wirign the down slope switches. Switches in down slope was hard to wire in defalut 45 degree turns. 
+
+So I used curve but curves were making it like waves. After some searches I got to know about free angle mode in interactive router setting in KiCAD, then after this setting I wired the switches properly
+
+For this setting
+* Click on the route button next to file and edit button on very top of the window.
+* Go to interactive router setting
+* Click on Highlight collison and then check free angle mode.
+
+  <img width="654" height="406" alt="image" src="https://github.com/user-attachments/assets/0e9ae0ed-b931-426e-a0f0-a64381761d0e" />
+
+
+**Now you can route in free angles instead 45 degree default turns**
+
+### Finally wiring all the columns and rows was done. 
+
+---
+
