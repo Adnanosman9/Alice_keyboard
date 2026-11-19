@@ -174,4 +174,32 @@ For this setting
 ### Finally wiring all the columns and rows was done. 
 
 ---
+## Journal 6 - Head is not working
 
+As columns and rows were routed previously. This was high time to route all the switches to the pico and get the hardest part of the project done. 
+
+### Buuuttttttt here was an issue in the schematic. 
+
+My pico symbol had an issue and the issue was that the pico symbol uses pin names as both pin name and number. But kiCAD PCB editor tracks pin via their number not names, so during wiring switches to the pico, it was not working. 
+
+<img width="576" height="453" alt="image" src="https://github.com/user-attachments/assets/61cc1acc-5799-47f1-81e2-342cedc3f2f3" />
+
+I got to know about it after some findings. I found a suggestion to edit the symbol in KiCAD. 
+
+I edited the symbol by changing names to number in pin number and saved it. 
+
+<img width="1132" height="899" alt="Screenshot 2026-11-19 124925" src="https://github.com/user-attachments/assets/102cef7c-ed19-4afb-9c95-f7f4643dcf74" />
+
+### It actually worked, The PCB editor was able to track pins and showing blue traces. 
+
+I just simply routed them the same way I did for switches. 
+
+To make it compact I made some turns too short angle that the electric may get stuck at some points. 
+
+So, I used **Round Tracks** plugin but some round round tracks were so round that these were overlapping. 
+
+I had to manually solve and fillet some tracks and vias. 
+
+### FInallyy the head was fixed and the switches were routed properly. 
+
+---
