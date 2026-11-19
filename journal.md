@@ -33,6 +33,7 @@ connected all switches in
 * 16 columns
 * 10 rows
 
+---
 
 ## Journal 2 - Wiring the head
 
@@ -63,7 +64,7 @@ Added 2 tables row and col labels and their pin numbers to make it easy during c
 > **Finally the schematic sheet is temporarily done to move to the PCB editor**
 
 
-
+---
 ## Journal 3 : The biggest mess
 
 After commpleting the schematic and moving to the PCB editor. 
@@ -96,3 +97,50 @@ So, I wrote the same numbers on the keycaps legend as annotations of the schemat
 <img width="1067" height="395" alt="image" src="https://github.com/user-attachments/assets/dd935b88-3e6f-4535-a7c7-4e6ed5f87439" />
 
 Downloaded the json again and this time used KLE placer to sort the switches and fortunately it worked the way I needed. 
+
+---
+## Journal 4 : Refactor
+
+Using KLE placer plugin worked properly, but here was a problem, during making the schematic I placed 8 keys in a row and 5 in a column, which was technically correct and practically here is an issue. Like a column has 5 keys and another have 4 another 3 and a row has 9 keys. Basically this was not static. 
+
+So, I hade to do some changes in the schematic rows and columns. 
+
+then rearranged the switches in the PCB. 
+
+To start the PCB, I needed a border -
+
+I made the layout order in dxf format for [swillkb](http://builder.swillkb.com/)
+
+Using this keyswitches layout as a reference I made the the border in Fusion 360
+
+<img width="801" height="498" alt="image" src="https://github.com/user-attachments/assets/bd426601-dd88-4c0c-bcc2-b65664205799" />
+
+
+Making this border was kinda difficult as I was trying to make something unique but feels like a mess. 
+
+After many changes, reformations, deletions, I made myy border using spline tool. 
+
+Exported it in DXF format and imported in PCB editor as a graphic for edge cuts
+
+But in PCB editor I got an issue. The edge cut is not working...............
+
+<img width="480" height="298" alt="Fah Desert Sunset GIF" src="https://github.com/user-attachments/assets/cc2fbfee-d422-4949-8451-75e2d374a8b9" />
+
+
+<img width="1026" height="518" alt="image" src="https://github.com/user-attachments/assets/4a47fccc-0dc5-4d8b-b6f3-dae389877979" />
+
+
+I faced it for the first time so I did not know what is the issue here. 
+
+After some searches I found out that the main issue is the graphic I imported is not grouped properly. 
+
+And the reason is KiCAD does not support spline lines. So I found a solution and I made the same border using **3 point arc** tool. 
+
+And this time it was imported fine and working as an edge cut..
+
+<img width="1017" height="436" alt="image" src="https://github.com/user-attachments/assets/411f2d34-12b6-4d17-9c41-dba898b444ec" />
+
+
+### FInally rearranging and making a border ends here. 
+
+---
