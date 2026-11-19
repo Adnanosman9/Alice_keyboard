@@ -203,3 +203,46 @@ I had to manually solve and fillet some tracks and vias.
 ### FInallyy the head was fixed and the switches were routed properly. 
 
 ---
+## Journal 7 - Align 
+
+The border design was good but the top part was curvy so maybe this will face some issues during mounting it in real. 
+
+So I decided to make it's top border plain 
+
+Redesigned the top part in Fusion and reimported in KiCAD again. 
+
+<img width="938" height="419" alt="image" src="https://github.com/user-attachments/assets/0d6dc5c8-2f53-4023-9970-7bb4cf83ad4b" />
+
+
+Mounting pico was good but had to reroute the wire track again as the pico moved. 
+
+### I needed to mount the switches in middle of the border so that it becomes easyy to make the physical parts in Fusion.
+
+I edited the Pico footprint. I just removed a graphic, nothing major:
+
+* Removed the **possible antenna keepout** mark
+  
+  <img width="350" alt="Removed USB cable mark" src="https://github.com/user-attachments/assets/0ca02902-9f23-49a3-b5f6-736ad73c481b" />
+
+* Removed the USB cable mark on top
+  
+  <img width="200" alt="Removed antenna keepout mark" src="https://github.com/user-attachments/assets/3d8e8377-f511-4db6-b8c2-49285bcf2877" />
+
+
+These two parts were making two issues
+- **possible antena mark** was giving a routing error for it's own hole on the side
+- **USB cable mark** was making issues in center calculation. KiCAD was counting it as main part and moving the vertical center from actual center position of the PCB
+
+Grouped the switches and pico to get it's center. 
+
+Aligned the horizontal center of switch group and the border. 
+
+<img width="792" height="331" alt="image" src="https://github.com/user-attachments/assets/6fb0a3d4-ce16-4c08-990f-4b77c96de87d" />
+
+
+Aligning vertical center was not quite good so manually placed the border on the top of pico. 
+
+<img width="581" height="381" alt="image" src="https://github.com/user-attachments/assets/f8cb3807-3698-43ba-a169-bc40ba5ee64c" />
+
+
+---
