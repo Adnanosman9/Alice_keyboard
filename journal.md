@@ -447,3 +447,32 @@ Keyboard modeling part is done till now.
 
 ### We have reassembled the Keyboard part as we had done before. 
 
+---
+
+## Journal 14 - Fit the parts
+
+As part modeling was done
+
+Now it was time to make the screw holes to hold all the parts together. 
+
+I mistakenly made screw holes one top layer which was cutting through the pcb layer, needed to delete them. 
+
+<img width="374" height="374" alt="dog-scroll" src="https://github.com/user-attachments/assets/cb3e09eb-ca5a-4934-9874-61e4fdfd4b54" />
+
+
+for proper inserting, I made the holes on the case outer walls. But the outer edge is too thin so it's hard to enter a heat inster in it. So needed to make only screw holes. 
+
+Made the screw holes on the 4 corners
+
+<img width="775" height="444" alt="image" src="https://github.com/user-attachments/assets/e17bd30b-49da-43d1-9f85-ba8e5a501b84" />
+
+Now I needed to make same screw hole on the top layer, but it was quite hard to make the same holes. 
+
+Later I found out about **Edit in place** option. Easily made the same hole on the top layer using this mode. 
+
+<img width="823" height="387" alt="image" src="https://github.com/user-attachments/assets/c4e01563-f226-42ff-89eb-c7acf43fe8b8" />
+
+
+### Attachment done. 
+
+---
