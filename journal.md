@@ -299,9 +299,8 @@ Whatever!! some issues were here those could not be solved by me, but still here
 
 **Total time spent: 1h 20m**
 ---
-
+# November 17th: CAD
 ## -------------Chapter 2 : CAD is a mess-------------------
-
 ---
 
 # November 17th: Journal 9 - Started CAD
@@ -524,15 +523,15 @@ To make the final design added colors on the profiles.
 <img width="775" height="373" alt="image" src="https://github.com/user-attachments/assets/13f4b6ea-c9cd-4983-b2b4-898d71caf79c" />
 
 
-### And personally I am impressed with those colors. 
 
 ### As usual I again did a mistake.
 During the blend extrusion, circle ears were extruded from inside and these were taking place from inside PCB area. So needed to use spline tool to cut out the circles from inside
 
 <img width="814" height="419" alt="image" src="https://github.com/user-attachments/assets/d7ce1a5c-6962-4b56-8461-5a8187b9c9cb" />
 
-**Total time spent: 1h 16m**
+### And personally I am impressed with those colors. 
 
+**Total time spent: 1h 42m**
 ---
 
 ## Journal 16 - The final hit
