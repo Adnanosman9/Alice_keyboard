@@ -183,7 +183,7 @@ For this setting
 
 **Total time spent: 54m**
 ---
-## Journal 6 - Head is not working
+# November 16th: Journal 6 - Head is not working
 
 As columns and rows were routed previously. This was high time to route all the switches to the pico and get the hardest part of the project done. 
 
