@@ -531,7 +531,7 @@ During the blend extrusion, circle ears were extruded from inside and these were
 
 <img width="814" height="419" alt="image" src="https://github.com/user-attachments/assets/d7ce1a5c-6962-4b56-8461-5a8187b9c9cb" />
 
-  **Total time spent: 1h 42m**
+**Total time spent: 1h 16m**
 
 ---
 
