@@ -517,3 +517,44 @@ During the blend extrusion, circle ears were extruded from inside and these were
 
 ---
 
+## Journal 16 - The final hit
+
+### Now the final touch
+
+To make the cable connection space for pico, I had to make some cuts in front of the pico cable area.
+
+<img width="741" height="412" alt="image" src="https://github.com/user-attachments/assets/4ce3523b-c64f-4ca6-9e6f-8e505bbfb18c" />
+
+
+edited the switch layer so that it does not over lap the pico. edited the switch layer so that it does not over lap the pico
+
+had to reimport a keycap as it was overlapping
+
+
+> ### Finally, Checked everything again, all was ok as planned. everything was aligned properly. Keyboard was lookign good too. Also it was well fitted without compromising in compact size and making it too bulky. 
+
+## Everythign is fit and fine. Saved everything and exported all models and keycaps in `.step` and `Fusion archive` file. 
+
+
+### The journal ends here. Hope the journal was helpful. I tried my best to document everything in my building process. Hpe I did not miss anything. 
+
+
+
+<img width="899" height="490" alt="image" src="https://github.com/user-attachments/assets/7d76b2d4-c420-4af2-b1a1-9995d9d9a64e" />
+
+<img width="1119" height="539" alt="image" src="https://github.com/user-attachments/assets/48180f7a-1522-4c25-9d70-f073726610c6" />
+
+<img width="130" height="133" alt="baby-chick" src="https://github.com/user-attachments/assets/44222d59-8af6-4994-9c66-e8b8f47e7248" />
+
+
+## Lapse are here
+
+[Alice_1](https://lapse.hackclub.com/timelapse/vRUkqbIR1GNu)
+[Alice_2](https://lapse.hackclub.com/timelapse/FAn1JrFx1Ehw)
+[Alice_3](https://lapse.hackclub.com/timelapse/XYBnWtpQnxaK)
+[Alice_4](https://lapse.hackclub.com/timelapse/bvH86aeBpvCf)
+[Alice_5](https://lapse.hackclub.com/timelapse/yhQVpwzFq72U)
+[Alice_6](https://lapse.hackclub.com/timelapse/eEiHiZV7hcFO)
+[Alice_7](https://lapse.hackclub.com/timelapse/zV_VjTVJjf_t)
+[Alice_8](https://lapse.hackclub.com/timelapse/Fsgb9ltkq90S)
+[Alice_9](https://lapse.hackclub.com/timelapse/ReRCCm1_bAK2)
