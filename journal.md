@@ -544,7 +544,7 @@ had to reimport a keycap as it was overlapping
 
 <img width="1119" height="539" alt="image" src="https://github.com/user-attachments/assets/48180f7a-1522-4c25-9d70-f073726610c6" />
 
-<img width="130*4" height="133*4" alt="baby-chick" src="https://github.com/user-attachments/assets/44222d59-8af6-4994-9c66-e8b8f47e7248" />
+<img width="520" height="532" alt="baby-chick" src="https://github.com/user-attachments/assets/44222d59-8af6-4994-9c66-e8b8f47e7248" />
 
 
 ## Lapse are here
