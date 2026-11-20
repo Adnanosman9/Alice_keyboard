@@ -415,3 +415,35 @@ Imported the switch layer in the case tab and aligned it on the case.
 <img width="404" height="264" alt="image" src="https://github.com/user-attachments/assets/61bc5dcc-9fa4-42c7-827b-e37bcb7f55cb" />
 
 ### This time it was quite good looking too. 
+
+---
+
+## Journal 13 - Reassemble
+
+Aligned the PCB step file with the switch layer and grouped them into one object. 
+
+Aligned the group switch layer on the case
+
+Made a cut in the case to check if alignment is good from in side. 
+
+**ANd yess! This was good.**
+
+rechecked the wall thickness and after changing some offset and extrusion, moved to build the top layer. 
+
+Made the top layer the samw way I did before.
+
+Deleted some small overlaping extruded part to fit the switches. 
+
+<img width="807" height="336" alt="image" src="https://github.com/user-attachments/assets/6e9374ef-cad5-4fc7-aafa-8834cf3bbf8b" />
+
+
+Imported it in the case tab and aligned it on the case. 
+
+Placed the keycaps on top of the switches. 
+
+Keyboard modeling part is done till now. 
+
+<img width="620" height="385" alt="image" src="https://github.com/user-attachments/assets/cbb51d1c-9012-4e64-b13d-04c4a0eae6da" />
+
+### We have reassembled the Keyboard part as we had done before. 
+
