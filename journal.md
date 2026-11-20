@@ -535,7 +535,7 @@ During the blend extrusion, circle ears were extruded from inside and these were
 **Total time spent: 1h 42m**
 ---
 
-## Journal 16 - The final hit
+# November 18th: Journal 16 - The final hit
 
 ### Now the final touch
 
