@@ -299,7 +299,8 @@ Whatever!! some issues were here those could not be solved by me, but still here
 
 **Total time spent: 1h 20m**
 ---
-# November 17th: CAD
+
+---
 ## -------------Chapter 2 : CAD is a mess-------------------
 ---
 
