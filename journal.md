@@ -1,9 +1,13 @@
-# Alvonomic
-Alice style keyboard | keys count - 65
+---
+title: "Alice Keyboard"
+author: "Adnanosman9"
+description: "Custom Alice-layout mechanical keyboard"
+created_at: "2026-11-15"
+---
 
 # Project journal
 
-## Journal 1 - The schematic and the layout
+# November 20th: Journal 1 - The schematic and the layout
 
 I decided to make a 65 keys keyboard in alice style as it looks a bit attractive and hard to build. 
 
@@ -33,6 +37,7 @@ connected all switches in
 * 16 columns
 * 10 rows
 
+**Total time spent: 2h 6m**
 ---
 
 ## Journal 2 - Wiring the head
