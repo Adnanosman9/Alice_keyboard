@@ -550,11 +550,19 @@ had to reimport a keycap as it was overlapping
 ## Lapse are here
 
 [Alice_1](https://lapse.hackclub.com/timelapse/vRUkqbIR1GNu)
+
 [Alice_2](https://lapse.hackclub.com/timelapse/FAn1JrFx1Ehw)
+
 [Alice_3](https://lapse.hackclub.com/timelapse/XYBnWtpQnxaK)
+
 [Alice_4](https://lapse.hackclub.com/timelapse/bvH86aeBpvCf)
+
 [Alice_5](https://lapse.hackclub.com/timelapse/yhQVpwzFq72U)
+
 [Alice_6](https://lapse.hackclub.com/timelapse/eEiHiZV7hcFO)
+
 [Alice_7](https://lapse.hackclub.com/timelapse/zV_VjTVJjf_t)
+
 [Alice_8](https://lapse.hackclub.com/timelapse/Fsgb9ltkq90S)
+
 [Alice_9](https://lapse.hackclub.com/timelapse/ReRCCm1_bAK2)
