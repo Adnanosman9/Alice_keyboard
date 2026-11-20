@@ -476,3 +476,44 @@ Later I found out about **Edit in place** option. Easily made the same hole on t
 ### Attachment done. 
 
 ---
+
+## Journal 15 -  Ears are the pillars
+
+Fitting the screws was done but....!
+
+screw upper diameter was crossing the wall, so I decided to make ears on the corner so that it does not break
+
+Deleted previous screw holes made ear corners on the case and top layer. 
+
+As ear corners were thick enough to hold m2 inserts so I made m2 heat insert holes on them
+
+Now it fits properly. 
+
+Inserted 8 M2 heat insert 3d model on the 4 corners of both case and top layer. 
+
+Also added 4 screws on top through the heat inserts
+
+<img width="606" height="328" alt="image" src="https://github.com/user-attachments/assets/bb657b88-ceb6-434e-9ef2-3af55b090b64" />
+
+
+But, 4 round circles on the corners were looking too bad. So I decided to blend them with the case. 
+
+So I edited the sketch, made some lines connecting to the case wall like a tangent from the circle ear border. 
+
+And this was looking good even better than all previous designs. 
+
+To make the final design added colors on the profiles. 
+
+<img width="775" height="373" alt="image" src="https://github.com/user-attachments/assets/13f4b6ea-c9cd-4983-b2b4-898d71caf79c" />
+
+
+### And personally I am impressed with those colors. 
+
+### As usual I again did a mistake.
+During the blend extrusion, circle ears were extruded from inside and these were taking place from inside PCB area. So needed to use spline tool to cut out the circles from inside
+
+<img width="814" height="419" alt="image" src="https://github.com/user-attachments/assets/d7ce1a5c-6962-4b56-8461-5a8187b9c9cb" />
+
+
+---
+
