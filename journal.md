@@ -7,7 +7,7 @@ created_at: "2026-11-15"
 
 # Project journal
 
-# November 20th: Journal 1 - The schematic and the layout
+# November 15th: Journal 1 - The schematic and the layout
 
 I decided to make a 65 keys keyboard in alice style as it looks a bit attractive and hard to build. 
 
@@ -37,10 +37,10 @@ connected all switches in
 * 16 columns
 * 10 rows
 
-**Total time spent: 2h 6m**
+**Total time spent: 1h**
 ---
 
-## Journal 2 - Wiring the head
+# November 15th: Journal 2 - Wiring the head
 
 Used Pico as the head of the keyboard. 
 
@@ -68,9 +68,10 @@ Added 2 tables row and col labels and their pin numbers to make it easy during c
 
 > **Finally the schematic sheet is temporarily done to move to the PCB editor**
 
+**Total time spent: 1h 6m**
 
 ---
-## Journal 3 : The biggest mess
+# November 16th: Journal 3 - The biggest mess
 
 After commpleting the schematic and moving to the PCB editor. 
 
@@ -103,8 +104,9 @@ So, I wrote the same numbers on the keycaps legend as annotations of the schemat
 
 Downloaded the json again and this time used KLE placer to sort the switches and fortunately it worked the way I needed. 
 
+**Total time spent: 32m**
 ---
-## Journal 4 : Refactor
+# November 16th Journal 4 : Refactor
 
 Using KLE placer plugin worked properly, but here was a problem, during making the schematic I placed 8 keys in a row and 5 in a column, which was technically correct and practically here is an issue. Like a column has 5 keys and another have 4 another 3 and a row has 9 keys. Basically this was not static. 
 
@@ -116,7 +118,7 @@ To start the PCB, I needed a border -
 
 I made the layout order in dxf format for [swillkb](http://builder.swillkb.com/)
 
-Using this keyswitches layout as a reference I made the the border in Fusion 360
+Using this keyswitch layout as a reference I made the the border in Fusion 360
 
 <img width="801" height="498" alt="image" src="https://github.com/user-attachments/assets/bd426601-dd88-4c0c-bcc2-b65664205799" />
 
@@ -148,9 +150,10 @@ And this time it was imported fine and working as an edge cut..
 
 ### FInally rearranging and making a border ends here. 
 
+**Total time spent: 1h 18m**
 ---
 
-## journal 5 - Wire the hell
+# November 16th: journal 5 - Wire the hell
 
 I started the switches all pre arrangement was done.
 
@@ -178,6 +181,7 @@ For this setting
 
 ### Finally wiring all the columns and rows was done. 
 
+**Total time spent: 54m**
 ---
 ## Journal 6 - Head is not working
 
@@ -207,8 +211,9 @@ I had to manually solve and fillet some tracks and vias.
 
 ### FInallyy the head was fixed and the switches were routed properly. 
 
+**Total time spent: 1h 12m**
 ---
-## Journal 7 - Align 
+# November 17th: Journal 7 - Align 
 
 The border design was good but the top part was curvy so maybe this will face some issues during mounting it in real. 
 
@@ -249,10 +254,10 @@ Aligning vertical center was not quite good so manually placed the border on the
 
 <img width="581" height="381" alt="image" src="https://github.com/user-attachments/assets/f8cb3807-3698-43ba-a169-bc40ba5ee64c" />
 
-
+**Total time spent: 1h 5m**
 ---
 
-## Journal 8 - Whatever!!!!!!!!!
+# November 17th Journal 8 - Whatever!!!!!!!!!
 
 ### As the 
 * Schematic was done
@@ -292,13 +297,14 @@ At the end the step file generation worked and it was imported in the Fusion pro
 
 Whatever!! some issues were here those could not be solved by me, but still here is a way. 
 
+**Total time spent: 1h 20m**
 ---
 
 ## -------------Chapter 2 : CAD is a mess-------------------
 
 ---
 
-### Journal 9 - Started CAD
+# November 17th: Journal 9 - Started CAD
 
 As the PCB was done, it was time to begin the next chapter
 
@@ -328,9 +334,10 @@ Added this top layer on the case making the Case work slightly done.
 
 <img width="796" height="475" alt="Screenshot 2026-11-19 204433" src="https://github.com/user-attachments/assets/1ee19bf7-ca9a-443c-bd5d-fb00ebc9b6ba" />
 
+**Total time spent: 1h 20m**
 ---
 
-## Journal 10 - The top
+# November 18th: Journal 10 - The top
 
 I needed to make the top layer to hold the switch layer with the case. 
 
@@ -351,13 +358,14 @@ Now the parts modeling is done but some serious parts are left.
 
 To check if everything is going is well or not I started adding keycaps on the switches. 
 
-Added 1u cap on the normal switches and longer keycaps o the switches where needed. 
+Added 1u cap on the normal switches and longer keycaps on the switches where needed. 
 
 <img width="926" height="403" alt="image" src="https://github.com/user-attachments/assets/9b90900b-6907-4b93-bd1a-2063dfedd6f1" />
 
+**Total time spent: 2h 28m**
 ---
 
-## Journal 11 - The Pretty one
+# November 18th: Journal 11 - The Pretty one
 
 I wanted to make it look good before going further. 
 
@@ -377,9 +385,10 @@ Adding ears in this will make the keyboard too bulky and hard to use also increa
 
 I literally underestimated how big every mm distance can be. 
 
+**Total time spent: 25m**
 ---
 
-## Journal 12 - Solve the mistake
+# November 18th: Journal 12 - Solve the mistake
 
 As previously, found out some issues. It's time to solve them. 
 
@@ -421,9 +430,10 @@ Imported the switch layer in the case tab and aligned it on the case.
 
 ### This time it was quite good looking too. 
 
+**Total time spent: 1h 25m**
 ---
 
-## Journal 13 - Reassemble
+# November 18th: Journal 13 - Reassemble
 
 Aligned the PCB step file with the switch layer and grouped them into one object. 
 
@@ -452,9 +462,10 @@ Keyboard modeling part is done till now.
 
 ### We have reassembled the Keyboard part as we had done before. 
 
+**Total time spent: 50m**
 ---
 
-## Journal 14 - Fit the parts
+# November 18th: Journal 14 - Fit the parts
 
 As part modeling was done
 
@@ -480,9 +491,10 @@ Later I found out about **Edit in place** option. Easily made the same hole on t
 
 ### Attachment done. 
 
+**Total time spent: 40m**
 ---
 
-## Journal 15 -  Ears are the pillars
+# November 18th: Journal 15 -  Ears are the pillars
 
 Fitting the screws was done but....!
 
@@ -519,7 +531,7 @@ During the blend extrusion, circle ears were extruded from inside and these were
 
 <img width="814" height="419" alt="image" src="https://github.com/user-attachments/assets/d7ce1a5c-6962-4b56-8461-5a8187b9c9cb" />
 
-
+**Total time spent: 1h 42m**
 ---
 
 ## Journal 16 - The final hit
@@ -536,7 +548,9 @@ edited the switch layer so that it does not over lap the pico. edited the switch
 had to reimport a keycap as it was overlapping
 
 
-> ### Finally, Checked everything again, all was ok as planned. everything was aligned properly. Keyboard was lookign good too. Also it was well fitted without compromising in compact size and making it too bulky. 
+> ### Finally, Checked everything again, all was ok as planned. everything was aligned properly. Keyboard was lookign good too. Also it was well fitted without compromising in compact size and making it too bulky.
+
+**Total time spent: 1h 16m**
 
 ## Everythign is fit and fine. Saved everything and exported all models and keycaps in `.step` and `Fusion archive` file. 
 
